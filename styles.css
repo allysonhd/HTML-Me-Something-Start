@@ -26,7 +26,7 @@ p {
 ol li {
   padding: 12px;
   font-size: 16px;
-  font-family: 'Franklin Gothic Medium';
+  font-family: "Franklin Gothic Medium";
 }
 
 img {
@@ -81,6 +81,7 @@ div img {
   flex: 33.33%;
   padding: 8px;
   max-height: fit-content;
+  width: 100%;
 }
 
 .container {
