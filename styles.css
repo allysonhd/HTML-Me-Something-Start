@@ -1,1 +1,105 @@
-/* Write your CSS here! */
+header {
+  background-color: antiquewhite;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+body {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  display: block;
+  background-color: rgb(2, 75, 37);
+  color: antiquewhite;
+  font-family: "Franklin Gothic Medium";
+  font-size: 18px;
+}
+
+p {
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+ol li {
+  padding: 12px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium';
+}
+
+img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+#mainHeading {
+  color: red;
+  text-align: center;
+  font-family: "Franklin Gothic Medium";
+  font-size: 60px;
+}
+
+#headingTwo {
+  color: rgb(0, 37, 18);
+  text-align: center;
+  font-family: "Franklin Gothic Medium";
+  font-size: 48px;
+}
+
+#headingThree {
+  color: antiquewhite;
+  text-align: left;
+  font-family: "Franklin Gothic Medium";
+  font-size: 36px;
+  padding-top: 12px;
+}
+
+div {
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-color: rgb(2, 75, 37);
+  border: 1px solid antiquewhite;
+}
+
+div img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 8px;
+  max-height: fit-content;
+}
+
+.container {
+  width: 100%;
+  height: 150px;
+  background-size: contain;
+  background-color: antiquewhite;
+  border: 1px solid antiquewhite;
+}
+
+a {
+  color: rgb(2, 185, 82);
+}
+
+.funParagraph {
+  color: green;
+}
+
+/*background-image: url("/Users/allysonhd/Desktop/LaunchCode/HTML-Me-Something-Start/images/vermont sign.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
